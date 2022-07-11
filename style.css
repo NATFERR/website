@@ -1,0 +1,44 @@
+/*atributte img <a href="https://storyset.com/book">Book illustrations by Storyset</a>*/
+/*color B877FC*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&display=swap');
+
+
+*, *::before, *::after {
+box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*fix logo img size*/
+.img {
+    width: 40%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    color: white;
+    text-shadow: 1px 1px 2px #37474f, 0 0 25px;
+    font-size: 5rem;
+    letter-spacing: 2rem;
+}
+
+.point {
+color: #fff;
+font-size: 5rem;
+}
+
+.container {
+    background-image: linear-gradient(to bottom,#455a64,#e0e0e0);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main__text {
+    display: flex;
+    flex-direction: row;
+}
