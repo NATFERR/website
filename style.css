@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 85%;
     max-width: 850px;
     margin: 0 auto;
 }
@@ -23,19 +23,31 @@ body {
 .row {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    justify-content: space-around;
+    gap: 70px;
+}
+
+.hero-right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-self: flex-start;
+}
+
+
+.hero__left{
+    width: 30%;
 }
 
 .hero {
-    padding: 50px 0;
+    padding: 40px 0;
     background-color: rgba(255, 143, 0, 0.89);
     color: #fff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
-.hero__text{
-    width: 60%;
-}
+
+
 
 .hero p{
     margin-bottom: 3em;
@@ -43,16 +55,18 @@ body {
 
 h1{
     font-size: 3rem;
+    margin: 0;
 }
 
 .btn-collection {
-    display: inline-block;
+    /* display: inline-block; */
     text-decoration: none;
     text-transform: uppercase;
     padding: .75em 1em;
     border-radius: 50px;
     background-color: #FFBA55;
     color: #fff;
+    align-self: center;
 }
 
 .btn-collection:hover,
